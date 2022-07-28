@@ -1,5 +1,46 @@
 fun main() {
 
+    var premiumUser = User(12312,"Eslam","ieslamme@gmai.com","cairo")
+
+    premiumUser.address = "Dubai" // SET
+
+    print(premiumUser.address) // GET
+
+
+
+
+
+
+//    var juniorKotlinDeveloper = KotlinDeveloper()
+//
+//    juniorKotlinDeveloper.doNotShareThisProject()
+
+//
+//    var juniorFlutterDeveloper = FlutterDeveloper()
+//
+//
+//    juniorFlutterDeveloper.doNotShareThisProject()
+//
+
+
+
+
+
+
+
+
+
+
+
+
+//
+//    var smallDog = SmallDog()
+//    smallDog.eating()
+//    smallDog.eating(26)
+//    smallDog.eating(12,"dogdog","cairo")
+//
+
+
 //    val age = 26 // default is INT
 //    val newAge: Long = age.toLong() // Parsing to long
 //    println(newAge)
@@ -123,11 +164,72 @@ fun main() {
 //    }
 
 
+//    var names = arrayOf("Eslam", "Mahmoud", "Mohammed", "Alex", "Ahmed", "Yasser")
+//    var names2 = "Eslam"
+//    for (listOfNames in names2){
+//        println(listOfNames)
+//    }
 
 
-    var names = arrayOf("Eslam", "Mahmoud", "Mohammed", "Alex", "Ahmed", "Yasser")
-    for (listOfNames in names){
-        println(listOfNames)
-    }
+//    for( i in 1..10 step 2){
+//        println("Hello World + $i")
+//    }
 
+
+//    var i = 1; // initialization
+//    while (i<=10){ // Condition
+//        //Statement
+//        println("Hello world + $i")
+//        i++ //Counter
+//    }
+
+
+    // infinite loop
+//    while (true){
+//        println("Hello")
+//    }
+
+//    var i = 1
+//    do {
+//        println("Hello")
+//        i++
+//    }
+//        while (i<0)
+
+
+//    for (i in 1..5){
+//        if (i == 3){
+//            continue
+//        }
+//        println(i)
+//    }
+
+//  val operationResult =  sum(5,6) // 11
+//    println(operationResult)
+//
+//    val max = Math.max(5,6)
+//    println(max)
+
+//    try {
+//        val data = 20 / 0
+//        println(data)
+//    } catch (exception: Exception) {
+//        println("Cannot divide by zero")
+//        println(exception)
+//    } finally {
+//        println("This line will always executed")
+//    }
+
+
+//    var name:String? = "Eslam" // Nullable
+//    if (name != null)
+//        println(name.length)
+//
+//    println("Ahmed AHmed")
+
+
+}
+
+fun sum(number1: Int, number2: Int): Int {
+    return number1 + number2
 }
